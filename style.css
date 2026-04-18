@@ -238,6 +238,7 @@ body {
     border-radius: 40px;
     padding: clamp(6px, 1.5vw, 8px) clamp(12px, 3vw, 16px);
     display: inline-block;
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     margin-top: 10px;
 }
